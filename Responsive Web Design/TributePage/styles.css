@@ -1,0 +1,26 @@
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #img-div {
+    margin-bottom: 20px;
+  }
+  
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-caption {
+    margin-top: 10px;
+  }
+  
+  #tribute-info {
+    text-align: left;
+    margin-bottom: 20px;
+  }

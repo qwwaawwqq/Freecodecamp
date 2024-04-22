@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid #ccc;
+    overflow: auto;
+}
+#main-doc {
+    margin-left: 210px;
+    padding: 10px;
+}
+.nav-link {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover {
+    background-color: #f4f4f4;
+}
+@media (max-width: 600px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    #main-doc {
+        margin-left: 0;
+    }
+}

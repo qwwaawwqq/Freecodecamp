@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please fill out this survey form.</p>
+  
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+    
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    
+    <label for="number" id="number-label">Age:</label>
+    <input type="number" id="number" min="18" max="120" placeholder="Enter your age">
+    
+    <label for="dropdown">Select an option:</label>
+    <select id="dropdown">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+    </select>
+    
+    <div>
+      <label>Gender:</label>
+      <label for="male">
+        <input type="radio" id="male" name="gender" value="male"> Male
+      </label>
+      <label for="female">
+        <input type="radio" id="female" name="gender" value="female"> Female
+      </label>
+    </div>
+    
+    <div>
+      <label>Interests:</label>
+      <label for="interest1">
+        <input type="checkbox" id="interest1" value="interest1"> Interest 1
+      </label>
+      <label for="interest2">
+        <input type="checkbox" id="interest2" value="interest2"> Interest 2
+      </label>
+    </div>
+    
+    <label for="comments">Additional Comments:</label>
+    <textarea id="comments"></textarea>
+    
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</body>
+</html>

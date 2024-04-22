@@ -1,0 +1,71 @@
+/* General body styles */
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Navbar styling */
+#navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Welcome section styling */
+#welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+/* Projects section styling */
+#projects {
+    padding: 20px;
+    background-color: #e9ecef;
+}
+
+.project-tile {
+    margin: 10px;
+    padding: 20px;
+    background-color: #dee2e6;
+}
+
+.project-tile a {
+    text-decoration: none;
+    color: #495057;
+}
+
+/* Profile link styling */
+#profile-link {
+    display: block;
+    width: max-content;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #6c757d;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#editor, #preview {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    height: 400px;
+    overflow-y: auto;
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#editor {
+    background-color: #f8f8f8;
+}
+
+#preview {
+    background-color: white;
+}

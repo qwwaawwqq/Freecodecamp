@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #drum-machine {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  #display {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .drum-pads {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .drum-pad {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .drum-pad:hover {
+    background-color: #ddd;
+  }
+  
+  .drum-pad.active {
+    background-color: #bbb;
+  }

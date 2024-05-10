@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
+  #description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #canvas {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #legend {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .county:hover {
+    stroke: black;
+    stroke-width: 2px;
+  }
+  
+  #tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    pointer-events: none;
+  }

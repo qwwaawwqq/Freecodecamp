@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #chart-container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
+  .dot {
+    fill: steelblue;
+    opacity: 0.7;
+  }
+  
+  .dot:hover {
+    fill: red;
+  }
+  
+  #tooltip {
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    pointer-events: none;
+  }

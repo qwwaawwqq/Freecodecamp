@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  #container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
+  #description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #treemap {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #legend {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .tile {
+    stroke: #fff;
+  }
+  
+  .tile:hover {
+    stroke: #000;
+  }
+  
+  #tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 12px;
+  }
